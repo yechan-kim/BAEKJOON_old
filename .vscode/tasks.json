@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+   "runner": "terminal",
+   "type": "shell",
+   "echoCommand": true,
+   "presentation" : { "reveal": "always" },
+    "tasks" : [
+        {
+            "label": "execute",
+            "command": "cmd",
+            "group": "test",
+            "args": [ "/C", "${fileDirname}\\${fileBasenameNoExtension}" ]
+        }
+    ]
+}
