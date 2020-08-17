@@ -7,9 +7,8 @@
     "tasks" : [
         {
             "label": "execute",
-            "command": "cmd",
-            "group": "test",
-            "args": [ "/C", "${fileDirname}\\${fileBasenameNoExtension}" ]
+            "command": ["gcc ${fileDirname}/${fileBasenameNoExtension}.c -o ${fileDirname}/${fileBasenameNoExtension}.out\n", "${fileDirname}/${fileBasenameNoExtension}.out\n", "rm ${fileDirname}/${fileBasenameNoExtension}.out"],
+            "group": "test"
         }
     ]
 }
