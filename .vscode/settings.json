@@ -6,6 +6,8 @@
     "git.autofetch": true,
     "files.associations": {
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "2751_수_정렬하기-2.C": "cpp",
+        "ios": "cpp"
     }
 }
